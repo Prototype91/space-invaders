@@ -1,0 +1,16 @@
+html, body {
+    background-color: #222;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+canvas {
+    display: block;
+    background-color: #000;
+    background-image: radial-gradient(circle at center, #666666, #000000 65%);
+    width: 480px;
+    height: 540px;
+}
